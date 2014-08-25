@@ -16,22 +16,22 @@ public class AboutAssertions {
 
 	@Koan 
 	public void assertBooleanTrue() {
-		assertTrue(__); // should be true really
+		assertTrue(true); // should be true really
 	}
 
 	@Koan
 	public void assertBooleanFalse() {
-		assertFalse(__); 
+		assertFalse(false); 
 	}
 	
 	@Koan
 	public void assertNullObject(){
-		assertNull(__);
+		assertNull(null);
 	}
 	
 	@Koan
 	public void assertNotNullObject(){
-		assertNotNull(null); // anything other than null should pass here...
+		assertNotNull("test"); // anything other than null should pass here...
 	}
 
 	@Koan
