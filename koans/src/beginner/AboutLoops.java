@@ -33,7 +33,7 @@ public class AboutLoops {
 		for(int j : is) {
 			s += "." + j;
 		}
-		assertEquals(s, "-.1.2.3.4");
+		assertEquals(s,"-.1.2.3.4");
 	}
 	
 	@Koan
@@ -116,7 +116,7 @@ public class AboutLoops {
 		}
 		// What does break with a label mean? 
 		// What gets executed? Where does the program flow continue?
-		assertEquals(count, 3);
+		assertEquals(count,3);
 	}
 
 }
